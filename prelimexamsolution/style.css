@@ -1,0 +1,110 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+/* For nav bar layout */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+
+.navbar a:hover {
+  background-color: black;
+  color: aliceblue;
+}
+
+/* For Home page layout */
+
+.home-page-flex {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.home-page-flex main {
+  padding: 20px;
+}
+
+.side-bar-left {
+  padding: 100px;
+}
+
+.side-bar-right {
+  padding: 100px;
+}
+
+span {
+  background-color: black;
+  color: rgb(136, 79, 5);
+  font-style: italic;
+  font-size: 50px;
+  padding: 10px;
+  margin: 10px;
+}
+/* For articles layout */
+
+.main-flex {
+  display: flex;
+  justify-content: center;
+  padding: 20xp;
+}
+
+.main-flex article {
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid burlywood;
+}
+
+/* For footer layout */
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+footer a {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+/* For forms */
+
+section {
+  display: flex;
+  justify-content: center;
+  height: 75vh;
+  padding: 20px;
+}
+
+section .loginform {
+  width: 25vh;
+
+  margin: 20px;
+}
+
+section .imaginary {
+  width: 100vh;
+  margin: 20px;
+}
