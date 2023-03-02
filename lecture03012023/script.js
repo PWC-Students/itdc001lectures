@@ -4,14 +4,13 @@ let age = parseInt(prompt('Provide your age')); //Number
 let name = prompt('Provide your name'); //String
 
 // we pass arguments as values
+printProfile(name, age);
 
 function printProfile(name, age) {
   //the paremeters will accept the values
   console.log('My name is ' + name);
   console.log('My age is ' + age);
 }
-
-printProfile(name, age);
 
 let isBooleanExample = true; //Boolean
 
